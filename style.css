@@ -43,8 +43,6 @@ h1,h3{
 
 .section-container{
     text-align: center;
-    /* border: 2px solid rgb(253, 253, 253);
-    border-radius: 25px; */
     margin: 60px;
     position: relative;
     top: 300px;
@@ -104,6 +102,10 @@ color: rgb(221, 172, 218);
 #educacion{
     position:relative;
     left: 15px;
+}
+
+tr{
+    font-size: 60px;
 }
 
 
