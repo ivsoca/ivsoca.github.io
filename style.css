@@ -55,7 +55,7 @@
 body{
     background-color: #070808;
     margin: 0;
-  padding: 0;
+    padding: 0;
 }
 
 #background-container{
@@ -104,9 +104,9 @@ h3{
 
 
 #foto-perfil{
-    width: 300px;
+    width: 310px;
     position: absolute;
-    top: 240px;
+    top: 320px;
     transition: transform 0.3s ease;
 }
     
@@ -204,6 +204,68 @@ h3 {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+
+  @media screen and (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 48px;
+    }
+  
+    .nav ul {
+        list-style: none; 
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 50px;
+      }
+      
+      .nav li {
+        margin-right: 60px;
+        margin-top: 15px;
+      }
+      
+      nav a {
+        color: #fff; /* Color del texto de los enlaces */
+        text-decoration: none; /* Quita el subrayado del texto */
+        padding: 10px; /* Espacio interno alrededor del enlace para hacerlo más clickeable */
+      }
+      
+      .nav a:hover {
+        background-color: #555; /* Color de fondo cuando el enlace está en hover */
+      }
+  
+    #header-container {
+      bottom: 10rem;
+      font-size: 30px;
+    }
+  
+    #foto-perfil {
+      width: 150px;
+      top: 250px;
+    }
+  
+    #about-me {
+      width: 85%;
+      height: auto;
+      top: 100px;
+      margin: 50px 10px;
+    }
+  
+    .section-container {
+      top: 20px;
+    }
+  
+    tr {
+      font-size: 30px;
+    }
+  }
+
 
  
   
