@@ -216,28 +216,14 @@ h3 {
     }
   
     .nav ul {
-        list-style: none; 
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        font-size: 50px;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        margin-top: 80px;
       }
-      
+    
       .nav li {
-        margin-right: 60px;
-        margin-top: 15px;
-      }
-      
-      nav a {
-        color: #fff; /* Color del texto de los enlaces */
-        text-decoration: none; /* Quita el subrayado del texto */
-        padding: 10px; /* Espacio interno alrededor del enlace para hacerlo más clickeable */
-      }
-      
-      .nav a:hover {
-        background-color: #555; /* Color de fondo cuando el enlace está en hover */
+        margin: 20px 0;
       }
   
     #header-container {
